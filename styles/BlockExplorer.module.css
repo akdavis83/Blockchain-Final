@@ -1,0 +1,45 @@
+.landingText {
+    max-width: 800px;
+}
+
+.github {
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.github:after {
+    content: "Alan Davis";
+}
+
+.github:hover:after {
+    content: "Check me out on Github";
+    color: aliceblue;
+}
+
+.background {
+    background: rgb(2, 0, 36);
+    background: linear-gradient( 90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    padding: 50px;
+}
+
+.noDecor {
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient( 90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height: 5rem;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    z-index: 2;
+}
